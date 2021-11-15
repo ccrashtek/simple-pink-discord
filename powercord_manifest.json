@@ -1,0 +1,9 @@
+{	
+  "name": "CTP",
+  "description": "broh",
+  "version": "6.6.6",
+  "author": "CCrashtek",
+  "license": "MIT",
+  "theme": "ctp.css",
+  "consent": "true"
+}
