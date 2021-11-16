@@ -1,6 +1,22 @@
 /*change none to block if you need things*/
 :root{
     --remover: none !important;
+    --background-mentioned: hsla(320,calc(var(--saturation-factor, 1)*60%),50%,0.1) !important;
+    --background-mentioned-hover: hsla(350,calc(var(--saturation-factor, 1)*60%),54.1%,0.2) !important;
+    --info-warning-foreground: hsl(350,calc(var(--saturation-factor, 1)*95%),80%) !important;
+    --brand-experiment-05a: hsla(350,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.05) !important;
+    --brand-experiment-30a: hsla(350,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.3) !important;
+    --brand-experiment-200: hsl(320,calc(var(--saturation-factor, 1)*83.3%),92.9%) !important;
+    --brand-experiment-560: #dd005c !important;
+    --brand-experiment-600: #dd005c !important;
+    --brand-experiment: #dd005c !important;
+    --buttona: #fff !important;
+    --buttonb: #000 !important;
+    --buttonbb: #f5d1e0 !important;
+    --focus-primary: #dd005c !important;
+    --text-link: hsl(350,calc(var(--saturation-factor, 1)*100%),50%);
+    --darky: rgb(20, 17, 19) !important;
+    --colorisha: #fd9ce0 !important;
 }
 /*Voicechannel controls/Video/Screen controls/Current game*/
 .wrapper-24pKcD, .panel-24C3ux.activityPanel-28dQGo{
@@ -17,9 +33,6 @@
 [href="https://support.discord.com"],[aria-label="Inbox"],[aria-label="Send a gift"],[aria-label="Open GIF picker"],[aria-label="Open sticker picker"]{
     display: var(--remover);
 }
-[class="channel-2QD9_O container-2Pjhx- clickable-1JJAn8"][data-list-item-id="private-channels-uid_43___nitro"]{
-    display: var(--remover);
-}
 .quickSelectLabel-2r3iJ_{
     display: var(--remover);
 }
@@ -33,47 +46,38 @@
 
 
 .theme-light{
-    --light-adaptive-background: #eedde8 !important;
-    --background-secondary: #eedde8 !important;
-    --background-secondary-alt: #eedde8 !important;
-    --background-primary: #eedde8 !important;
-    --background-floating: #eedde8 !important;
-    --background-tertiary: #eedde8 !important;
-    --background-mentioned: hsla(230,calc(var(--saturation-factor, 1)*60%),50%,0.1);
-    --background-mentioned-hover: hsla(230,calc(var(--saturation-factor, 1)*60%),54.1%,0.2);
-    --brand-experiment-560: #6b525f !important;
-    --brand-experiment-600: #46313d !important;
-    --brand-experiment: #493342 !important;
-    --info-warning-foreground: hsl(230,calc(var(--saturation-factor, 1)*95%),80%);
-    --channeltextarea-background: #fffafd !important;
-    --colorisha: #bd9cfd !important;
+    
+    --background-modifier-accent: #e9c1d1 !important;
+    --background-modifier-selected: rgba(189, 160, 167, 0.24) !important;
+    --light-adaptive-background: #f5eef2 !important;
+    --background-secondary: #f5eef2 !important;
+    --background-secondary-alt: #f5eef2 !important;
+    --background-primary: #f5eef2 !important;
+    --background-floating: #f5eef2 !important;
+    --background-tertiary: #f5eef2 !important;
+    --channeltextarea-background: #fffefe !important;
     --scrollbar-auto-thumb: #cfafbf !important;
-    --scrollbar-auto-track: #f7eef3 !important;
-    --buttona: #fff !important;
-    --text-link: hsl(225,calc(var(--saturation-factor, 1)*100%),50%);
-    --darky: rgb(20, 17, 19) !important;
+    --scrollbar-auto-track: #f5eef2 !important;
+    --interactive-hover: rgb(0, 0, 0) !important;
+    --channels-default: rgb(70, 70, 75);
+    --text-muted: #5d6269 !important;
+
 }
 
 .theme-dark{
+    --background-modifier-accent: #794f59 !important;
     --light-adaptive-background: #3e2334 !important;
     --background-secondary: #3e2334 !important;
     --background-secondary-alt: #3e2334 !important;
     --background-primary: #3e2334 !important;
     --background-floating: #3e2334 !important;
     --background-tertiary: #3e2334 !important;
-    --background-mentioned: hsla(230,calc(var(--saturation-factor, 1)*60%),50%,0.1);
-    --background-mentioned-hover: hsla(230,calc(var(--saturation-factor, 1)*60%),54.1%,0.2);
-    --brand-experiment-560: #b63879 !important;
-    --brand-experiment-600: #cf398e !important;
-    --brand-experiment: #ff12ac !important;
-    --info-warning-foreground: hsl(230,calc(var(--saturation-factor, 1)*95%),80%);
-    --channeltextarea-background: #fffafd !important;
-    --colorisha: #bd9cfd !important;
+    --channeltextarea-background: #2e1218 !important;
     --scrollbar-auto-thumb: #70345a !important;
-    --scrollbar-auto-track: #2c0f22 !important;
-    --buttona: #fff !important;
-    --text-link: hsl(225,calc(var(--saturation-factor, 1)*100%),50%);
-    --darky: rgb(20, 17, 19) !important;
+    --scrollbar-auto-track: #3e2334 !important;
+    --interactive-hover: #fff !important;
+    --channels-default: rgb(201, 201, 201);
+    --text-muted: #b0b5be !important;
 }
 
 
@@ -107,6 +111,13 @@
     background-color: var(--background-secondary);
     border-right: 1px solid var(--background-modifier-accent);
 }
+.container-1r6BKw.themed-ANHk51{
+    border-bottom: 1px solid var(--background-modifier-accent);
+}
+.searchBar-6Kv8R2{
+    border-bottom: 1px solid var(--background-modifier-accent);
+    margin-top: -1px;
+}
 .chat-3bRxxu{
     border-left: 1px solid var(--background-modifier-accent);
     background-color: var(--background-secondary);
@@ -138,18 +149,34 @@
 .css-x3hllb-control{
     border-radius: 0 0 0 0 !important;
 }
-.messagesWrapper-1sRNjr.group-spacing-16{
-    border-right: 1px solid var(--background-modifier-accent);
+
+
+
+.colorable-1bkp8v.primaryDark-3mSFDl, .colorable-1bkp8v.primaryDark-3mSFDl .centerIcon-2G6o-T{
+    color: var(--buttonb);
 }
-
-
-
+.colorable-1bkp8v.primaryDark-3mSFDl{
+    background: var(--buttona);
+}
+.colorable-1bkp8v.primaryDark-3mSFDl:hover{
+    background: var(--buttonbb);
+}
 .callContainer-36WRfH{
     background: var(--background-primary) !important;
 }
 .notice-3bPHh-.colorStreamerMode-2SJAUN{
     background-color: var(--background-primary) !important;
     color: var(--text-normal) !important;
+}
+.updateIconForeground-3tnNZn{
+    fill:var(--brand-experiment) !important;
+}
+[class="mention wrapper-3WhCwL mention interactive"]{
+    color: var(--brand-experiment) !important;
+    background-color: var(--background-mentioned);
+}
+[class="mention wrapper-3WhCwL mention interactive"]:hover{
+    color: var(--buttona) !important;
 }
 .theme-dark .button-2DhvE9, .theme-light .button-2DhvE9{
     color: var(--text-normal) !important;
@@ -166,10 +193,13 @@
     background-color: var(--background-primary);
 }
 .colorable-1bkp8v.primaryLight-1_NQ7Q{
-    background: var(--text-normal) !important;
+    background: var(--buttona) !important;
 }
 .item-2hkk8m{
-    background: var(--text-normal) !important;
+    background: var(--brand-experiment) !important;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY{
+    background-color: var(--brand-experiment) !important;
 }
 .wrapper-1BJsBx:hover .childWrapper-anI2G9, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9{
     background-color: var(--brand-experiment);
