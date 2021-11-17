@@ -1,4 +1,4 @@
-![spd](https://i.imgur.com/E7q67LO.png)
+![spd](https://i.imgur.com/aBhXkm1.png)
 
 # Simple Pink Discord
  broh
