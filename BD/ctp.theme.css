@@ -7,6 +7,7 @@
     --brand-experiment-05a: hsla(350,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.05) !important;
     --brand-experiment-30a: hsla(350,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.3) !important;
     --brand-experiment-200: hsl(320,calc(var(--saturation-factor, 1)*83.3%),92.9%) !important;
+    --brand-experiment-500: #dd005c !important;
     --brand-experiment-560: #dd005c !important;
     --brand-experiment-600: #dd005c !important;
     --brand-experiment: #dd005c !important;
@@ -47,8 +48,10 @@
 
 .theme-light{
     
+    --background-modifier-active: rgba(185, 65, 93, 0.2) !important;
+    --background-modifier-selected: rgba(218, 136, 155, 0.3) !important;
+    --background-modifier-hover: rgba(219, 189, 196, 0.3) !important;
     --background-modifier-accent: #e9c1d1 !important;
-    --background-modifier-selected: rgba(189, 160, 167, 0.24) !important;
     --light-adaptive-background: #f5eef2 !important;
     --background-secondary: #f5eef2 !important;
     --background-secondary-alt: #f5eef2 !important;
@@ -65,6 +68,10 @@
 }
 
 .theme-dark{
+
+    --background-modifier-active: rgba(185, 65, 93, 0.5) !important;
+    --background-modifier-selected: rgba(255, 78, 119, 0.6) !important;
+    --background-modifier-hover: rgba(185, 65, 93, 0.3) !important;
     --background-modifier-accent: #794f59 !important;
     --light-adaptive-background: #3e2334 !important;
     --background-secondary: #3e2334 !important;
@@ -72,12 +79,13 @@
     --background-primary: #3e2334 !important;
     --background-floating: #3e2334 !important;
     --background-tertiary: #3e2334 !important;
-    --channeltextarea-background: #2e1218 !important;
+    --channeltextarea-background: #58344b !important;
     --scrollbar-auto-thumb: #70345a !important;
     --scrollbar-auto-track: #3e2334 !important;
     --interactive-hover: #fff !important;
     --channels-default: rgb(201, 201, 201);
     --text-muted: #b0b5be !important;
+
 }
 
 
@@ -149,8 +157,19 @@
 .css-x3hllb-control{
     border-radius: 0 0 0 0 !important;
 }
-
-
+.homeWrapperNormal-2KSUEa.homeWrapper-3-Wh5T{
+    border-left: 1px solid var(--background-modifier-accent);
+}
+.container-1taM1r.clickable-25tGDB{
+    border-bottom: 1px solid var(--background-modifier-accent);
+    margin-top: -1px;
+}
+.top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active{
+    border-bottom: 2px solid var(--background-modifier-accent) !important;
+}
+.top-28JiJ- .item-PXvHYJ{
+    border-bottom: 2px solid rgba(0,0,0,0) !important;
+}
 
 .colorable-1bkp8v.primaryDark-3mSFDl, .colorable-1bkp8v.primaryDark-3mSFDl .centerIcon-2G6o-T{
     color: var(--buttonb);
@@ -221,6 +240,7 @@
 }
 [class="item-3HknzM item-PXvHYJ themed-OHr7kt"][aria-label="Add Friend"]{
     background-color: var(--brand-experiment-560) !important;
+    color: var(--buttona) !important;
 }
 .scrollableContainer-2NUZem.webkit-HjD9Er{
     background-color: var(--channeltextarea-background) !important;
@@ -230,4 +250,13 @@
 }
 .thin-1ybCId, .thin-1ybCId.fade-2kXiP2:hover, .thin-1ybCId.scrolling-1Cdwk-{
     scrollbar-color: var(--scrollbar-auto-thumb) !important;
+}
+.border-Jn5IOt.speaking-B2MXPi{
+    box-shadow: inset 0 0 0 1px var(--brand-experiment),inset 0 0 0 2px var(--background-floating) !important;
+}
+.avatarSpeaking-2c8-9i{
+    box-shadow: inset 0 0 0 1px var(--brand-experiment),inset 0 0 0 2px var(--background-secondary) !important;
+}
+.navigationBar-2JJXBp{
+    background-color: var(--brand-experiment) !important;
 }
