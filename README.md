@@ -1,6 +1,6 @@
 ![spd](https://i.imgur.com/aBhXkm1.png)
 
-# Simple Pink Discord
+# Simple pink discord
  broh
 
 ## Screenshots:
@@ -8,7 +8,9 @@
 ![lt](https://i.imgur.com/4Rc0s9d.png)
 ![dt](https://i.imgur.com/Q7qjNrB.png)
 
-## Installation (only powercord)
+## Installation:
+
+### Powercord:
 Open command prompt or whatever, and copy&paste the following command:
 ```
 cd powercord/src/Powercord/themes && git clone https://github.com/ccrashtek/simple-pink-discord
