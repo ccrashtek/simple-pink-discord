@@ -1,9 +1,9 @@
 {	
-  "name": "CTP",
+  "name": "SPD",
   "description": "broh",
   "version": "6.6.6",
   "author": "CCrashtek",
   "license": "MIT",
-  "theme": "ctp.css",
+  "theme": "cpd.css",
   "consent": "true"
 }
