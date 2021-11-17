@@ -19,6 +19,6 @@ after that, just press ctrl+r in your discord
 Open [this link](https://raw.githubusercontent.com/ccrashtek/simple-pink-discord/main/BD/ctp.theme.css), press CTRL+S and save file.
 Then open your theme folder and drop it there, it should work.
 
-### Need help? Dm me: Да#410
+### Need help? Dm me: Да#4103
 
 #### [:black_heart:](https://youtu.be/_ygcbrBRMLY)
