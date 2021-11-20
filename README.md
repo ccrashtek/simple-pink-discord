@@ -18,7 +18,7 @@ cd powercord/src/Powercord/themes && git clone https://github.com/ccrashtek/simp
 after that, just press ctrl+r in your discord
 
 ### BetterDiscord:
-Open [this link](https://raw.githubusercontent.com/ccrashtek/simple-pink-discord/main/BD/ctp.theme.css), press CTRL+S and save file.
+Open [this link](https://raw.githubusercontent.com/ccrashtek/simple-pink-discord/main/BD/spd.theme.css), press CTRL+S and save file.
 Then open your theme folder and drop it there, it should work.
 
 ### Need help? Dm me: Да#4103
