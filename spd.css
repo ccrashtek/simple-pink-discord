@@ -20,6 +20,7 @@
     --colorisha: #fd9ce0 !important;
     --control-brand-foreground: var(--brand-experiment) !important;
     --elevation-low: unset !important;
+    --border-size: 1px solid var(--background-modifier-accent) !important;
 }
 
 .theme-light{
