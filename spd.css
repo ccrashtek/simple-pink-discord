@@ -21,6 +21,7 @@
     --control-brand-foreground: var(--brand-experiment) !important;
     --elevation-low: unset !important;
     --border-size: 1px solid var(--background-modifier-accent) !important;
+    --icons-color: hue-rotate(220deg) saturate(170%) !important;
 }
 
 .theme-light{
@@ -233,7 +234,7 @@
     background: var(--buttonbb);
 }
 .callContainer-36WRfH{
-    background: var(--background-primary) !important;
+    background: var(--main-color) !important;
 }
 .notice-3bPHh-.colorStreamerMode-2SJAUN{
     background-color: var(--background-primary) !important;
@@ -254,9 +255,6 @@
 .theme-dark .button-2DhvE9, .theme-light .button-2DhvE9{
     color: var(--text-normal) !important;
     border-color: var(--text-normal);
-}
-.callContainer-36WRfH{
-    background: var(--background-primary) !important;
 }
 .content-98HsJk, .container-2lgZY8{
     background-color: var(--background-primary);
@@ -360,7 +358,7 @@
     background-color: var(--brand-experiment) !important;
 }
 .iconContainer-3GkGRf{
-    filter: hue-rotate(100deg) saturate(130%);
+    filter: var(--icons-color);
 }
 .lookOutlined-3sRXeN.colorRed-1TFJan:hover{
     background-color:hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
