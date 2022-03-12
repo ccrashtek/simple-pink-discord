@@ -364,3 +364,6 @@
     background-color:hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
     color: var(--buttona);
 }
+.peopleColumn-1wMU14{
+    background-color: var(--background-primary) !important;
+}
